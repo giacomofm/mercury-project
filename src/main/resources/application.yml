@@ -1,0 +1,18 @@
+# ~ actuator
+info:
+  app:
+    version: 1
+    name: Mercury
+    description: A Spring Boot basic project to mock some restful services
+# ~ spring-boot
+server:
+  port: 8080
+spring:
+  application:
+    name: mercury
+  gson:
+    disable-html-escaping: true
+# ~ log
+logging:
+  level:
+    root: INFO
